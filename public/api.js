@@ -11,7 +11,7 @@ api.get("/")
         for (let growdever of array) {
             document.querySelector(
                 "#lista"
-            ).innerHTML += `<li>Nome: ${growdever.nome} - Turma ${growdever.turma}</li>`;
+            ).innerHTML += `<li>Nome!!!: ${growdever.nome} - Turma ${growdever.turma}</li>`;
         }
     })
     .catch((err) => {
